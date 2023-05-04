@@ -1,0 +1,58 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0; 
+    height: 100%;
+    width: 260px;
+    background:rgb(1, 1, 43);
+    /* z-index: 100; */
+    transition: all 0.5s ease;
+    
+} 
+
+.sidebar  li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: x-large;
+             
+}
+
+.options span{
+color: white;
+font-size: large;
+margin-top: 20px;
+}
+
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .options span:hover {
+    background-color:#33415c;
+    border-radius: 10px;
+    width: 120px;
+    margin-right: 10px;
+
+  }
+  
+  .sidebar ul li a span {
+    margin-left: 20px;
+  }
+  .auth-options{
+    margin-top: 3px;
+  }
+
+  .auth-options:hover{
+    background-color: white;
+  }
+  
+
+
+

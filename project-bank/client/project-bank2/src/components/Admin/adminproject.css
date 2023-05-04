@@ -1,0 +1,118 @@
+/* Set up some global styles */
+:root {
+  --primary-color: #0077b6;
+  --secondary-color: #ebebeb;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-container {
+  margin-left: 500px;
+  padding: 40px;
+}
+
+.project-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project-container-header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.add-project-button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add-project-button:hover {
+  background-color: #005580;
+}
+
+/* Style the projects container */
+.projects-containr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 32%;
+}
+
+.project .image-container {
+  background-color: #ebebeb;
+  width: 1000px;
+}
+
+.project .project-actions {
+  padding: 20px;
+}
+.avatar 
+{ width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.project .project-actions h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project .project-actions p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.project .project-actions .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project .project-actions .avatar {
+  margin-bottom: 10px;
+}
+
+.project .project-actions button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.project .project-actions button:hover {
+  background-color: #474747;
+}

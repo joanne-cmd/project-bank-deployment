@@ -1,0 +1,119 @@
+ .course__details{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 400px;
+    counter-reset: step;
+  }
+  
+  .course__details td:first-child::before {
+    counter-increment: step;
+    content: counter(step, decimal) '.';
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    left: 9px;
+    margin-left: 350px;
+  }
+  
+  tr {
+    background-color: #e6e6ff;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #fbfdfb;
+    color: rgb(5, 5, 5);
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+   .primary__add{
+    background-color: #1784bf;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: right;
+    right: 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    margin-right: 20px;
+   font-weight: 800;
+   border-radius: 10px;
+  
+  } 
+  
+  .primary__add:hover {
+    cursor: pointer;
+  }
+  
+  .title__cohorts {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+   
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  
+  .popup-inner {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .cohortsHead {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    margin: 0;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cohortsHead h1 {
+    margin-bottom: 5px !important;
+    font-weight: 800;
+  }
+  
+  .cohortsHead button {
+    width: fit-content !important;
+    height: fit-content !important;
+    margin: 0 !important;
+  }
+  
+  .delete-button {
+    background-color:red;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
+  
+
+  

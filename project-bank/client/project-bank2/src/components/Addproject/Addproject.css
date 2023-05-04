@@ -1,0 +1,65 @@
+
+h2{
+  align-content: center;
+}
+.add-h{
+   align-content: center;
+  margin-left: 60rem;
+
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: 80vh;
+  margin-left: 50rem;
+ 
+  background-color: rgb(229, 229, 240);
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+input,
+
+textarea {
+  width: 70%;
+  padding: 1.5rem;
+  margin-top: 5px;
+  border-radius: 15px;
+  
+} 
+
+.addnew__project {
+  background-color: #1784bf; 
+  color:white;
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  
+  margin-bottom: 20px;
+  width: 50%;
+  font-size: x-large;
+}
+
+.addnew__project:hover{
+  background-color: black;
+}
+
+.course-select{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10rem;
+  border-radius: 5px;
+
+  
+}
+.role-select{
+  margin-bottom: 12px;
+
+} 
+.project__label{
+  margin-top: 20px;
+}
